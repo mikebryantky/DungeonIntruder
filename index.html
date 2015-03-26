@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dungeon Intruder</title>
+	<style type="text/css">
+		html,body {
+			background-color: #333;
+			color: #ECF1EF;
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			font-size: 12pt;
+		}
+		
+		h1 {
+		    font-size: 110%;
+			font-variant: small-caps;
+			font-weight: bold;
+			margin-left: 10px;
+		}
+		
+		#footer {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			background: #999999;
+		}
+		
+		.center {
+		    font-size: 85%;
+			width: 700px;
+			margin: 0 auto;
+			padding: 3px;
+			text-align: center;
+			color: #232243;
+		}
+		
+		#canvas {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		}
+	</style>
+
+	<script type="text/javascript" src="lib/impact/impact.js"></script>
+	<script type="text/javascript" src="lib/game/main.js"></script>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	
+	<div>
+	    <p>
+	        <h1>Dungeon Intruder Rules</h1>
+		    <ul>
+			    <li>Use arrows keys move. Press X to shoot Fireballs.</li>
+				<li>You cannot shoot while standing still.</li>
+			    <li>Fireballs increase in damage with each Ogre killed.</li>
+				<li>Number of Fireballs increases with level (up to a max of four).</li>
+				<li>Fireball damage increases with each level.</li>
+				<li>Ogres get more powerful each level.</li>
+				<li>Dungeon floor gets slicker with each level (to a max).</li>
+				<li>Dying (running into an Ogre) resets the game back to level 1.</li>
+			</ul>
+		</p>
+	</div>
+	
+
+	<div id="footer">
+	    <div class="center">
+	        Copyright 2014 <a href="http://www.mikebryant.com">Mike Bryant</a>&nbsp;&nbsp;::&nbsp;&nbsp;Created with <a href="http://www.impactjs.com">ImpactJS</a>&nbsp;&nbsp;::&nbsp;&nbsp;Graphics &amp; sound courtesy of <a href="http://opengameart.org/">OpenGameArt.org</a>
+	    </div>
+		<div class="center">
+		    <strong>NOTE: This is a proof of concept and is NOT intended to be a full-fledged game.</strong>
+	    </div>
+    </div>
+	
+</body>
+</html>
