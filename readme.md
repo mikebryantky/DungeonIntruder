@@ -2,8 +2,6 @@
 
 Proof of concept HTML5 game written using the <a href="http://www.impactjs.com">ImpactJS</a> framework.
 
-Demo is available at http://www.mikebryant.com/misc/DungeonIntruder/
-
 ## Rules
 
 
